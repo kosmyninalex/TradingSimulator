@@ -1,4 +1,12 @@
 public class MatchingEngine implements Runnable {
+    private static final MatchingEngine matchingEngine = new MatchingEngine();
+
+    private MatchingEngine() {}
+
+    public static MatchingEngine getInstance() {
+        return matchingEngine;
+    }
+
     @Override
     public void run() {
         while (true) {

@@ -16,24 +16,43 @@ public class OrderBook implements Runnable {
     {
         orderType = orderType.toUpperCase();
         OrderType orderType1 = OrderType.valueOf(orderType);
+        Order order = (new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price)));
         if (orderType1.equals(OrderType.SELL)) {
-            ordersListSell.add(new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price)));
+            ordersListSell.add(order);
         }
         else
         {
-            orderListBuy.add(new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price));
+            orderListBuy.add(order);
         }
+        ordersList.add(order);
     }
 
     public ArrayList<Order> getOrderList()
     {
-        Collections.sort(ordersList);
         return ordersList;
+    }
+
+    public void orderBooksSort ()
+    {
+        Collections.sort(orderListBuy);
+        Collections.sort(ordersListSell);
     }
 
     public String toString ()
     {
         return this.name;
+    }
+
+    public Order getOrderById (int id)
+    {
+        try {
+            return ordersList.get(id - 1);
+        }
+        catch (Exception e)
+        {
+            Logging.logEvent("Error receiving utility.Order by ID");
+            return null;
+        }
     }
 
     @Override

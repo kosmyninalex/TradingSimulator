@@ -1,8 +1,9 @@
 public class TradingGateway {
+
 /*
-    public Order addOrder (OrderBook orderBook, OrderType orderType, int quantity, int price)
+    public utility.Order addOrder (OrderBook orderBook, OrderType orderType, int quantity, int price)
     {
-        Order newOrder =
+        utility.Order newOrder =
     }*/
 
     public void cancelOrder (OrderBook orderBook, int orderId)

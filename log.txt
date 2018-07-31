@@ -54,3 +54,7 @@ TradingSimulator: 2018/07/31 17:55:34.869. Event: Type -help to see the list of 
 TradingSimulator: 2018/07/31 17:56:14.005. Event: Trading Simulator started
 TradingSimulator: 2018/07/31 17:56:14.099. Event: Type -help to see the list of available commands
 TradingSimulator: 2018/07/31 17:56:19.599. Event: Parsing failed with [Ljava.lang.StackTraceElement;@458ad742
+TradingSimulator: 2018/07/31 20:20:43.617. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 20:20:43.710. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 20:20:49.049. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 20:20:49.127. Event: Type -help to see the list of available commands

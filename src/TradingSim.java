@@ -9,7 +9,7 @@ public class TradingSim {
     public static void main(String[] args) {
         Logging.logEvent("Trading Simulator started");
         Logging.logEvent("Type -help to see the list of available commands");
-        Thread t1 = new Thread(new MatchingEngine());
+        Thread t1 = new Thread(MatchingEngine.getInstance());
         t1.start();
 
         {
