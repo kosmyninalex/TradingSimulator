@@ -1,0 +1,56 @@
+TradingSimulator: 2018/07/30 17:18:07.033. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 17:18:07.298. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 17:22:46.605. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 17:22:46.714. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:26:18.075. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:26:18.169. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:28:55.492. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:28:55.570. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:29:57.781. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:29:57.859. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:32:47.154. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:32:47.247. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:42:45.691. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:42:45.769. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/30 23:43:05.968. Event: Trading Simulator started
+TradingSimulator: 2018/07/30 23:43:06.062. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 06:46:23.476. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 06:46:23.570. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 15:56:10.198. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 15:56:10.321. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 15:56:50.312. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 15:56:50.403. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:05:28.756. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:05:28.850. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:06:57.385. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:06:57.479. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:07:05.087. Event: Parsing failed with [Ljava.lang.StackTraceElement;@5afa04c
+TradingSimulator: 2018/07/31 16:07:13.552. Event: Parsing failed with [Ljava.lang.StackTraceElement;@6ea12c19
+TradingSimulator: 2018/07/31 16:08:02.635. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:08:02.713. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:08:07.846. Event: Parsing failed with [Ljava.lang.StackTraceElement;@458ad742
+TradingSimulator: 2018/07/31 16:16:55.856. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:16:55.934. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:16:59.569. Event: Parsing failed with [Ljava.lang.StackTraceElement;@32e6e9c3
+TradingSimulator: 2018/07/31 16:17:08.977. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:17:09.070. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:17:17.302. Event: Parsing failed with [Ljava.lang.StackTraceElement;@6ea12c19
+TradingSimulator: 2018/07/31 16:18:05.883. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:18:05.961. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:20:04.666. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:20:04.759. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 16:20:57.843. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 16:20:57.982. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:09:18.878. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:09:18.973. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:10:10.371. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:10:10.449. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:15:41.485. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:15:41.579. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:51:10.943. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:51:11.083. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:55:34.791. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:55:34.869. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:56:14.005. Event: Trading Simulator started
+TradingSimulator: 2018/07/31 17:56:14.099. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/07/31 17:56:19.599. Event: Parsing failed with [Ljava.lang.StackTraceElement;@458ad742
