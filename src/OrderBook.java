@@ -15,7 +15,14 @@ public class OrderBook implements Runnable {
     public void addOrder (String orderType, String quantity, String price)
     {
         orderType = orderType.toUpperCase();
-        ordersList.add(new Order(this, OrderType.valueOf(orderType), Integer.parseInt(quantity), Integer.parseInt(price)));
+        OrderType orderType1 = OrderType.valueOf(orderType);
+        if (orderType1.equals(OrderType.SELL)) {
+            ordersListSell.add(new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price)));
+        }
+        else
+        {
+            orderListBuy.add(new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price));
+        }
     }
 
     public ArrayList<Order> getOrderList()
