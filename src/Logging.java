@@ -15,7 +15,7 @@ public class Logging {
             e.printStackTrace();
         }
 
-        System.out.print (res);
+        System.out.print (res + "\n");
 
 
     }

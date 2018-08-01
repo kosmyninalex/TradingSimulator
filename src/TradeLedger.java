@@ -8,6 +8,7 @@ public class TradeLedger {
 
     public void addTrade (Trade trade)
     {
+        Logging.logEvent(trade.toString());
         tradeList.add(trade);
     }
 

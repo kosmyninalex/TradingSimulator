@@ -60,3 +60,59 @@ TradingSimulator: 2018/08/01 14:49:44.165. Event: Type -help to see the list of 
 TradingSimulator: 2018/08/01 14:49:46.364. Event: called help command
 TradingSimulator: 2018/08/01 14:50:00.381. Event: sell order quantity is smaller than buy order's quantity
 TradingSimulator: 2018/08/01 14:50:07.608. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 15:12:02.335. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 15:12:02.430. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 15:12:31.435. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 15:12:45.552. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 15:22:06.424. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 15:22:06.517. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 15:22:31.831. Event: sell order quantity is bigger than buy order's quantity
+TradingSimulator: 2018/08/01 15:22:31.940. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 15:22:41.581. Event: called exit command
+TradingSimulator: 2018/08/01 18:42:13.823. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 18:42:13.933. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 18:42:20.077. Event: Order with id 1added. Order book: g. Order type: BUY. Price: 2. Quantity: 2
+TradingSimulator: 2018/08/01 18:43:03.792. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 18:43:03.887. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 18:43:10.404. Event: Order with id 1 added. Order book: goog. Order type: SELL. Price: 3. Quantity: 3
+TradingSimulator: 2018/08/01 18:43:51.719. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 18:43:51.815. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 18:43:55.946. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 18:44:03.740. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 18:44:52.754. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 18:44:52.848. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 18:45:00.026. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 2. Quantity: 2.
+TradingSimulator: 2018/08/01 18:45:06.247. Event: called help command
+TradingSimulator: 2018/08/01 18:45:14.848. Event: Order with ID 2 added. Order book: g. Order type: SELL. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 18:45:15.012. Event: sell order quantity is bigger than buy order's quantity
+TradingSimulator: 2018/08/01 18:45:34.945. Event: Order with ID 3 added. Order book: g. Order type: BUY. Price: 1. Quantity: 1.
+TradingSimulator: 2018/08/01 18:45:35.181. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 18:56:25.283. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 18:56:25.377. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 20:57:36.993. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 20:57:37.087. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 20:57:45.004. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 20:57:52.039. Event: Order with ID 2 added. Order book: g. Order type: SELL. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 20:57:52.195. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 20:57:52.242. Event: New execution with ID: 1 Order book: g. Buying order details. Quantity before the trade: 3. Quantity after the trade: 0 .Price: 3 Selling order details. Quantity before the trade: 3. Quantity after the trade: 0 .Price: 3
+TradingSimulator: 2018/08/01 21:03:10.604. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:03:10.714. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 21:03:17.141. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 21:03:26.420. Event: Order with ID 2 added. Order book: g. Order type: BUY. Price: 100. Quantity: 100.
+TradingSimulator: 2018/08/01 21:03:38.891. Event: Order with ID 3 added. Order book: g. Order type: SELL. Price: 3. Quantity: 2.
+TradingSimulator: 2018/08/01 21:03:38.922. Event: sell order quantity is smaller than buy order's quantity
+TradingSimulator: 2018/08/01 21:03:39.000. Event: New execution with ID: 1 Order book: g. BUYING ORDER. Qty before: 3. Qty after: 1.Price: 3 SELL ORDER. Qty before: 2. Qty after: 0.Price: 3
+TradingSimulator: 2018/08/01 21:07:05.729. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:07:05.838. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 21:07:11.130. Event: called help command
+TradingSimulator: 2018/08/01 21:07:19.080. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 4.
+TradingSimulator: 2018/08/01 21:08:15.111. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:08:15.204. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 21:08:21.516. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 4.
+TradingSimulator: 2018/08/01 21:08:28.363. Event: Order with ID 2 added. Order book: g1. Order type: BUY. Price: 4. Quantity: 4.
+TradingSimulator: 2018/08/01 21:08:37.619. Event: Order with ID 3 added. Order book: g. Order type: BUY. Price: 100. Quantity: 200.
+TradingSimulator: 2018/08/01 21:08:46.200. Event: Order with ID 4 added. Order book: g. Order type: SELL. Price: 300. Quantity: 400.
+TradingSimulator: 2018/08/01 21:08:46.372. Event: sell order quantity is bigger than buy order's quantity
+TradingSimulator: 2018/08/01 21:08:46.434. Event: New execution with ID: 1 Order book: g. BUYING ORDER. Qty before: 4. Qty after: 0. Price: 3 SELL ORDER. Qty before: 400. Qty after: 396. Price: 300
+TradingSimulator: 2018/08/01 21:08:46.434. Event: sell order quantity is bigger than buy order's quantity
+TradingSimulator: 2018/08/01 21:08:46.434. Event: New execution with ID: 2 Order book: g. BUYING ORDER. Qty before: 200. Qty after: 0. Price: 100 SELL ORDER. Qty before: 396. Qty after: 196. Price: 300

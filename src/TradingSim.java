@@ -42,7 +42,7 @@ public class TradingSim {
                     TradingGateway.getInstance().addOrder(res[1], res[2], res[3], res[4]);
                     break;
                 }
-                case "get":
+                case "getAll":
                 {
                     TradingGateway.getInstance().getBothOrdersLists ();
                     break;
@@ -52,6 +52,8 @@ public class TradingSim {
                 {
                     Logging.logEvent("called help command");
                     System.out.println ("Type add [OrderBook] [OrderType] [Price] [Quantity] for adding a new order. E.g.: 'add goog buy 50 20'");
+                    System.out.println ("Type getAll for printing a full orders list for each of the Order Books");
+                    System.out.println ("Type exit to exit to the app");
                     break;
                 }
                 case "exit":

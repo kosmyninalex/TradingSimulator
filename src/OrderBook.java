@@ -36,6 +36,7 @@ public class OrderBook{
 
     public void printOrders ()
     {
+        System.out.println ("----------- Order Book: " + this + "-----------");
         System.out.println ("List of buying orders");
         for (Order i: orderListBuy)
         {
@@ -75,12 +76,27 @@ public class OrderBook{
     public ArrayList<Order> getBuyOrdersList ()
     {
         Collections.sort(orderListBuy);
+        for (int i=0; i<orderListBuy.size(); i++)
+        {
+            if (orderListBuy.get(i).getCompletedState() == true)
+            {
+                orderListBuy.remove(i);
+            }
+        }
         return orderListBuy;
     }
 
     public ArrayList<Order> getSellOrdersList ()
     {
         Collections.sort(ordersListSell);
+
+        for (int i=0; i<ordersListSell.size(); i++)
+        {
+            if (ordersListSell.get(i).getCompletedState() == true)
+            {
+                ordersListSell.remove(i);
+            }
+        }
         return ordersListSell;
     }
 }

@@ -52,6 +52,8 @@ public class MatchingEngine implements Runnable {
                 Order sellOrder = sellOrderList.get(j);
                 if ((sellOrder.getCompletedState() == false) && (buyOrder.getCompletedState() == false)) {
                     if (buyOrder.getPrice() <= sellOrder.getPrice()) {
+                        int oldSellingQuantity = sellOrder.getQuantity();
+                        int oldBuyingQuatity = buyOrder.getQuantity();
                         int quantityDiff = sellOrder.getQuantity() - buyOrder.getQuantity();
                         if (quantityDiff == 0) {
                             //Debug event
@@ -76,9 +78,11 @@ public class MatchingEngine implements Runnable {
                             sellOrder.setQuantity(0);
                             buyOrder.setQuantity(quantityDiff * (-1));
                         }
+                        Trade trade = new Trade(orderBook, sellOrder, buyOrder, oldSellingQuantity, oldBuyingQuatity);
+                        TradeLedger.getInstance().addTrade(trade);
                         }
 
-                        Trade trade = new Trade(orderBook, sellOrder, buyOrder);
+
                     }
                 }
             }

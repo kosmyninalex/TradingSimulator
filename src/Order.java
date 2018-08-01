@@ -18,6 +18,7 @@ public class Order implements Comparable <Order>{
         counter++;
         isCompleted = false;
         isPartlyCompleted = false;
+        Logging.logEvent("Order with ID " + id + " added. " + "Order book: " + orderBook + ". Order type: " + orderType + ". Price: " + price + ". Quantity: " + quantity + ".");
     }
 
     public void setPartlyCompletedState ()
