@@ -1,19 +1,21 @@
 import java.util.Date;
 
 public class Trade {
-    private OrderBook orderBook;
-    private Order sellingOrder;
-    private Order buyingOrder;
+    private static int counter = 1;
+    private String orderBook;
+    private String sellingOrder;
+    private String buyingOrder;
     private String date;
+    private int id;
 
-    private Trade(OrderBook orderBook, Order sellingOrder, Order buyingOrder)
+    public Trade(OrderBook orderBook, Order sellingOrder, Order buyingOrder)
     {
-        this.orderBook = orderBook;
-        this.sellingOrder = sellingOrder;
-        this.buyingOrder = buyingOrder;
+        this.orderBook = orderBook.toString();
+        this.sellingOrder = sellingOrder.toString();
+        this.buyingOrder = buyingOrder.toString();
         date = CurrentDate.getDate();
+        id = counter;
+        counter++;
     }
-
-
 
 }

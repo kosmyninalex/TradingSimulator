@@ -1,78 +1,62 @@
-TradingSimulator: 2018/07/30 17:18:07.033. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 17:18:07.298. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 17:22:46.605. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 17:22:46.714. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:26:18.075. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:26:18.169. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:28:55.492. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:28:55.570. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:29:57.781. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:29:57.859. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:32:47.154. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:32:47.247. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:42:45.691. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:42:45.769. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/30 23:43:05.968. Event: Trading Simulator started
-TradingSimulator: 2018/07/30 23:43:06.062. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 06:46:23.476. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 06:46:23.570. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 15:56:10.198. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 15:56:10.321. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 15:56:50.312. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 15:56:50.403. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:05:28.756. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:05:28.850. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:06:57.385. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:06:57.479. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:07:05.087. Event: Parsing failed with [Ljava.lang.StackTraceElement;@5afa04c
-TradingSimulator: 2018/07/31 16:07:13.552. Event: Parsing failed with [Ljava.lang.StackTraceElement;@6ea12c19
-TradingSimulator: 2018/07/31 16:08:02.635. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:08:02.713. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:08:07.846. Event: Parsing failed with [Ljava.lang.StackTraceElement;@458ad742
-TradingSimulator: 2018/07/31 16:16:55.856. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:16:55.934. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:16:59.569. Event: Parsing failed with [Ljava.lang.StackTraceElement;@32e6e9c3
-TradingSimulator: 2018/07/31 16:17:08.977. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:17:09.070. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:17:17.302. Event: Parsing failed with [Ljava.lang.StackTraceElement;@6ea12c19
-TradingSimulator: 2018/07/31 16:18:05.883. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:18:05.961. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:20:04.666. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:20:04.759. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 16:20:57.843. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 16:20:57.982. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:09:18.878. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:09:18.973. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:10:10.371. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:10:10.449. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:15:41.485. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:15:41.579. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:51:10.943. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:51:11.083. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:55:34.791. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:55:34.869. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:56:14.005. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 17:56:14.099. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 17:56:19.599. Event: Parsing failed with [Ljava.lang.StackTraceElement;@458ad742
-TradingSimulator: 2018/07/31 20:20:43.617. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 20:20:43.710. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/07/31 20:20:49.049. Event: Trading Simulator started
-TradingSimulator: 2018/07/31 20:20:49.127. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:09:05.497. Event: Trading Simulator started
-TradingSimulator: 2018/08/01 09:09:05.580. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:09:07.555. Event: Invalid command
-TradingSimulator: 2018/08/01 09:09:10.504. Event: Invalid command
-TradingSimulator: 2018/08/01 09:09:34.590. Event: Trading Simulator started
-TradingSimulator: 2018/08/01 09:09:34.684. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:09:43.904. Event: called help command
-TradingSimulator: 2018/08/01 09:09:43.904. Event: called exit command
-TradingSimulator: 2018/08/01 09:10:32.292. Event: Trading Simulator started
-TradingSimulator: 2018/08/01 09:10:32.385. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:10:35.150. Event: called help command
-TradingSimulator: 2018/08/01 09:17:04.301. Event: Trading Simulator started
-TradingSimulator: 2018/08/01 09:17:04.379. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:17:09.763. Event: Invalid command. Please type -help for more information
-TradingSimulator: 2018/08/01 09:17:12.328. Event: Invalid command. Please type -help for more information
-TradingSimulator: 2018/08/01 09:17:20.050. Event: Trading Simulator started
-TradingSimulator: 2018/08/01 09:17:20.144. Event: Type -help to see the list of available commands
-TradingSimulator: 2018/08/01 09:17:22.010. Event: called help command
+TradingSimulator: 2018/08/01 13:51:46.800. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 13:51:46.894. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 13:51:46.894. Event: Matching engine is working
+TradingSimulator: 2018/08/01 13:51:47.895. Event: Matching engine is working
+TradingSimulator: 2018/08/01 13:51:48.909. Event: Matching engine is working
+TradingSimulator: 2018/08/01 13:51:49.912. Event: Matching engine is working
+TradingSimulator: 2018/08/01 13:51:50.926. Event: Matching engine is working
+TradingSimulator: 2018/08/01 13:52:13.201. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 13:52:13.295. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 13:53:17.771. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 13:53:17.864. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 13:53:34.625. Event: Parsing failed with [Ljava.lang.StackTraceElement;@2344fc66
+TradingSimulator: 2018/08/01 13:53:37.142. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 13:53:47.075. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 13:53:47.171. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 13:54:03.007. Event: called help command
+TradingSimulator: 2018/08/01 14:11:49.469. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:11:49.562. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:15:39.896. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:15:39.974. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:15:55.595. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:16:01.668. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:16:05.646. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:16:12.045. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:16:12.138. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:16:25.311. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 14:17:17.868. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:17:17.962. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:17:35.438. Event: called help command
+TradingSimulator: 2018/08/01 14:26:35.942. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:26:36.035. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:27:36.066. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 14:28:03.124. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:28:03.218. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:28:15.839. Event: called help command
+TradingSimulator: 2018/08/01 14:29:59.627. Event: called help command
+TradingSimulator: 2018/08/01 14:30:11.595. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:30:11.689. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:34:42.804. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:34:42.913. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:34:53.336. Event: called help command
+TradingSimulator: 2018/08/01 14:40:31.126. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:40:31.251. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:40:58.749. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:41:02.743. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:41:09.024. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:41:12.597. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 14:41:19.948. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:41:20.057. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:41:29.516. Event: called help command
+TradingSimulator: 2018/08/01 14:46:53.905. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:46:53.999. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:47:03.333. Event: called help command
+TradingSimulator: 2018/08/01 14:47:34.013. Event: sell order quantity is smaller than buy order's quantity
+TradingSimulator: 2018/08/01 14:47:34.013. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 14:49:24.873. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:49:24.967. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:49:44.055. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 14:49:44.165. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 14:49:46.364. Event: called help command
+TradingSimulator: 2018/08/01 14:50:00.381. Event: sell order quantity is smaller than buy order's quantity
+TradingSimulator: 2018/08/01 14:50:07.608. Event: quantityDiff is 0

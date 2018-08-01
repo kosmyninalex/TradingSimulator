@@ -1,9 +1,10 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TradingGateway {
     public static final TradingGateway tradingGateway = new TradingGateway();
-    public static Map<String, OrderBook> map = new HashMap<>();
+    public static Map<String, OrderBook> map = new ConcurrentHashMap<>();
 
     private TradingGateway() {}
 

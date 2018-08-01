@@ -5,8 +5,10 @@ public class Order implements Comparable <Order>{
     private int quantity;
     private int price;
     private OrderBook orderBook;
+    private boolean isCompleted;
+    private boolean isPartlyCompleted;
 
-    public Order (OrderBook orderBook, OrderType orderType, int quantity, int price)
+    public Order (OrderBook orderBook, OrderType orderType, int price, int quantity)
     {
         this.orderBook = orderBook;
         this.orderType = orderType;
@@ -14,6 +16,28 @@ public class Order implements Comparable <Order>{
         this.price = price;
         id = counter;
         counter++;
+        isCompleted = false;
+        isPartlyCompleted = false;
+    }
+
+    public void setPartlyCompletedState ()
+    {
+        isPartlyCompleted = true;
+    }
+
+    public boolean getPartlyCompletedState ()
+    {
+        return isPartlyCompleted;
+    }
+
+    public void setCompletedState ()
+    {
+        isCompleted = true;
+    }
+
+    public boolean getCompletedState ()
+    {
+        return isCompleted;
     }
 
 
@@ -33,6 +57,7 @@ public class Order implements Comparable <Order>{
         return price;
     }
 
+
     public OrderBook getOrderBook() {
         return orderBook;
     }
@@ -43,8 +68,7 @@ public class Order implements Comparable <Order>{
 
     public String toString ()
     {
-        return "id: " + id + " " + orderBook + " " + orderType.toString() + " " + quantity + " " + price;
-    }
+        return "id: " + id + " " + orderBook + " " + orderType.toString() + " " + "price is: " + price + " " + "quantity " + quantity + " is completed state: " + isCompleted; }
 
     @Override
     public int compareTo(Order o) {

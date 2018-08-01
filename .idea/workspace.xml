@@ -23,9 +23,17 @@
       <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="105">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#812#813#0" expanded="true" />
@@ -38,26 +46,22 @@
       <file leaf-file-name="OrderBook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OrderBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+            <state relative-caret-position="17">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#384#385#0" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#1927#1928#0" expanded="true" />
-                <element signature="e#1961#1962#0" expanded="true" />
-                <element signature="e#2018#2019#0" expanded="true" />
-                <element signature="e#2055#2056#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchingEngine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatchingEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MatchingEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state relative-caret-position="309">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
@@ -94,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TradingGateway.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TradingGateway.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TradingGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="309">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +113,8 @@
       <file leaf-file-name="TradingSim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TradingSim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="156">
+              <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +125,8 @@
       <file leaf-file-name="Trade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="156">
+              <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -170,13 +174,13 @@
         <option value="$PROJECT_DIR$/src/Logging.java" />
         <option value="$PROJECT_DIR$/src/utility/OrderType.java" />
         <option value="$PROJECT_DIR$/src/utility/Order.java" />
-        <option value="$PROJECT_DIR$/src/Order.java" />
-        <option value="$PROJECT_DIR$/src/TradingGateway.java" />
-        <option value="$PROJECT_DIR$/src/Trade.java" />
         <option value="$PROJECT_DIR$/src/TradingSim.java" />
         <option value="$PROJECT_DIR$/src/TradeLedger.java" />
-        <option value="$PROJECT_DIR$/src/OrderBook.java" />
+        <option value="$PROJECT_DIR$/src/Trade.java" />
+        <option value="$PROJECT_DIR$/src/TradingGateway.java" />
+        <option value="$PROJECT_DIR$/src/Order.java" />
         <option value="$PROJECT_DIR$/src/MatchingEngine.java" />
+        <option value="$PROJECT_DIR$/src/OrderBook.java" />
       </list>
     </option>
   </component>
@@ -316,11 +320,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3322034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3322034" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32881355" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.25718608" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
       <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" weight="0.2579425" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -376,6 +380,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#812#813#0" expanded="true" />
@@ -485,6 +497,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#812#813#0" expanded="true" />
@@ -580,30 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TradingSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TradeLedger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -620,21 +616,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TradingGateway.java">
+    <entry file="file://$PROJECT_DIR$/src/Trade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="105">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#812#813#0" expanded="true" />
@@ -643,30 +651,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderBook.java">
+    <entry file="file://$PROJECT_DIR$/src/TradingSim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        <state relative-caret-position="156">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#1927#1928#0" expanded="true" />
-            <element signature="e#1961#1962#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MatchingEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state relative-caret-position="309">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TradingGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

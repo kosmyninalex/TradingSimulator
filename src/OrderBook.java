@@ -74,11 +74,13 @@ public class OrderBook{
 
     public ArrayList<Order> getBuyOrdersList ()
     {
+        Collections.sort(orderListBuy);
         return orderListBuy;
     }
 
     public ArrayList<Order> getSellOrdersList ()
     {
+        Collections.sort(ordersListSell);
         return ordersListSell;
     }
 }
