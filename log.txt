@@ -116,3 +116,31 @@ TradingSimulator: 2018/08/01 21:08:46.372. Event: sell order quantity is bigger 
 TradingSimulator: 2018/08/01 21:08:46.434. Event: New execution with ID: 1 Order book: g. BUYING ORDER. Qty before: 4. Qty after: 0. Price: 3 SELL ORDER. Qty before: 400. Qty after: 396. Price: 300
 TradingSimulator: 2018/08/01 21:08:46.434. Event: sell order quantity is bigger than buy order's quantity
 TradingSimulator: 2018/08/01 21:08:46.434. Event: New execution with ID: 2 Order book: g. BUYING ORDER. Qty before: 200. Qty after: 0. Price: 100 SELL ORDER. Qty before: 396. Qty after: 196. Price: 300
+TradingSimulator: 2018/08/01 21:14:54.973. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:14:55.069. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 21:15:10.240. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:15:10.328. Event: Type help to see the list of available commands
+TradingSimulator: 2018/08/01 21:15:40.490. Event: called help command
+TradingSimulator: 2018/08/01 21:21:09.946. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 21:22:05.351. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:22:05.460. Event: Type help to see the list of available commands
+TradingSimulator: 2018/08/01 21:22:21.703. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:22:21.797. Event: Type help to see the list of available commands
+TradingSimulator: 2018/08/01 21:22:41.685. Event: called help command
+TradingSimulator: 2018/08/01 21:24:10.104. Event: Order with ID 1 added. Order book: title. Order type: BUY. Price: 1. Quantity: 1.
+TradingSimulator: 2018/08/01 21:26:28.980. Event: Parsing failed with [Ljava.lang.StackTraceElement;@77cd7a0
+TradingSimulator: 2018/08/01 21:26:42.312. Event: Order with ID 2 added. Order book: title. Order type: SELL. Price: 2. Quantity: 2.
+TradingSimulator: 2018/08/01 21:26:42.791. Event: sell order quantity is bigger than buy order's quantity
+TradingSimulator: 2018/08/01 21:26:42.854. Event: New execution with ID: 1 Order book: title. BUYING ORDER. Qty before: 1. Qty after: 0. Price: 1 SELL ORDER. Qty before: 2. Qty after: 1. Price: 2
+TradingSimulator: 2018/08/01 21:32:25.129. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:32:25.225. Event: Type help to see the list of available commands
+TradingSimulator: 2018/08/01 21:32:39.113. Event: Order with ID 1 added. Order book: title. Order type: BUY. Price: 1. Quantity: 1.
+TradingSimulator: 2018/08/01 21:32:42.845. Event: Order with ID 2 added. Order book: title. Order type: SELL. Price: 2. Quantity: 2.
+TradingSimulator: 2018/08/01 21:32:55.119. Event: Order with ID 3 added. Order book: title. Order type: BUY. Price: 2. Quantity: 2.
+TradingSimulator: 2018/08/01 21:32:55.431. Event: quantityDiff is 0
+TradingSimulator: 2018/08/01 21:32:55.477. Event: New execution with ID: 1 Order book: title. BUYING ORDER. Qty before: 2. Qty after: 0. Price: 2 SELL ORDER. Qty before: 2. Qty after: 0. Price: 2
+TradingSimulator: 2018/08/01 21:38:55.037. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 21:38:55.131. Event: Type help to see the list of available commands
+TradingSimulator: 2018/08/01 21:39:01.946. Event: called help command
+TradingSimulator: 2018/08/01 21:39:06.757. Event: Order with ID 1 added. Order book: g. Order type: BUY. Price: 3. Quantity: 3.
+TradingSimulator: 2018/08/01 21:39:12.274. Event: Order with ID 2 added. Order book: g. Order type: SELL. Price: 4. Quantity: 4.

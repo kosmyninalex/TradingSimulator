@@ -31,10 +31,13 @@ public class TradingGateway {
     // Debug method!!!
     public void getBothOrdersLists ()
     {
-        for (Map.Entry<String, OrderBook> entry : map.entrySet()) {
-            OrderBook orderBook = entry.getValue();
-            orderBook.printOrders();
+        if (!map.isEmpty()) {
+            for (Map.Entry<String, OrderBook> entry : map.entrySet()) {
+                OrderBook orderBook = entry.getValue();
+                orderBook.printOrders();
+            }
         }
+        else System.out.println ("All order books are empty");
 
     }
 

@@ -37,16 +37,23 @@ public class OrderBook{
     public void printOrders ()
     {
         System.out.println ("----------- Order Book: " + this + "-----------");
-        System.out.println ("List of buying orders");
-        for (Order i: orderListBuy)
-        {
-            System.out.println (i);
+        if (!orderListBuy.isEmpty()) {
+            System.out.println("List of buying orders");
+            for (Order i : orderListBuy) {
+                System.out.println(i);
+            }
         }
+        else System.out.println ("List of buying orders is empty");
 
-        System.out.println ("List of selling orders");
-        for (Order i: ordersListSell)
+        if (!ordersListSell.isEmpty()) {
+            System.out.println("List of selling orders");
+            for (Order i : ordersListSell) {
+                System.out.println(i);
+            }
+        }
+        else
         {
-            System.out.println (i);
+            System.out.println ("List of selling orders is empty");
         }
     }
 

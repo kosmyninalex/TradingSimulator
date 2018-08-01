@@ -51,13 +51,13 @@ public class MatchingEngine implements Runnable {
                 {
                 Order sellOrder = sellOrderList.get(j);
                 if ((sellOrder.getCompletedState() == false) && (buyOrder.getCompletedState() == false)) {
-                    if (buyOrder.getPrice() <= sellOrder.getPrice()) {
+                    if (buyOrder.getPrice() >= sellOrder.getPrice()) {
                         int oldSellingQuantity = sellOrder.getQuantity();
                         int oldBuyingQuatity = buyOrder.getQuantity();
                         int quantityDiff = sellOrder.getQuantity() - buyOrder.getQuantity();
                         if (quantityDiff == 0) {
                             //Debug event
-                            Logging.logEvent("quantityDiff is 0");
+                           // Logging.logEvent("quantityDiff is 0");
                             buyOrder.setCompletedState();
                             sellOrder.setCompletedState();
                             buyOrder.setQuantity(0);
@@ -66,14 +66,13 @@ public class MatchingEngine implements Runnable {
                         if (quantityDiff > 0)
                         {
                             //Debug event
-                            Logging.logEvent("sell order quantity is bigger than buy order's quantity");
+                           // Logging.logEvent("sell order quantity is bigger than buy order's quantity");
                             buyOrder.setCompletedState();
                             buyOrder.setQuantity(0);
                             sellOrder.setQuantity(quantityDiff);
                         }
                         if (quantityDiff < 0)
                         {
-                            Logging.logEvent("sell order quantity is smaller than buy order's quantity");
                             sellOrder.setCompletedState();
                             sellOrder.setQuantity(0);
                             buyOrder.setQuantity(quantityDiff * (-1));

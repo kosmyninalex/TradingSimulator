@@ -11,7 +11,7 @@ public class TradingSim {
     public static void main(String[] args) {
 
         Logging.logEvent("Trading Simulator started");
-        Logging.logEvent("Type -help to see the list of available commands");
+        Logging.logEvent("Type help to see the list of available commands");
         System.out.println();
         Thread t1 = new Thread(MatchingEngine.getInstance());
         t1.start();
@@ -42,7 +42,7 @@ public class TradingSim {
                     TradingGateway.getInstance().addOrder(res[1], res[2], res[3], res[4]);
                     break;
                 }
-                case "getAll":
+                case "print":
                 {
                     TradingGateway.getInstance().getBothOrdersLists ();
                     break;
@@ -51,9 +51,11 @@ public class TradingSim {
                 case "help":
                 {
                     Logging.logEvent("called help command");
+                    System.out.println ("------------------");
                     System.out.println ("Type add [OrderBook] [OrderType] [Price] [Quantity] for adding a new order. E.g.: 'add goog buy 50 20'");
-                    System.out.println ("Type getAll for printing a full orders list for each of the Order Books");
-                    System.out.println ("Type exit to exit to the app");
+                    System.out.println ("Type print for printing a full orders list for each of the Order Books");
+                    System.out.println ("Type 'exit' to exit app");
+                    System.out.println ("------------------");
                     break;
                 }
                 case "exit":
