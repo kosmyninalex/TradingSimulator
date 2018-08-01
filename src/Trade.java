@@ -14,4 +14,6 @@ public class Trade {
         date = CurrentDate.getDate();
     }
 
+
+
 }

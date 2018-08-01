@@ -21,5 +21,10 @@ public class TradeLedger {
         return tradeLedger;
     }
 
+    public void processTrades ()
+    {
+
+    }
+
 
 }

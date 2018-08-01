@@ -1,15 +1,53 @@
-public class TradingGateway {
+import java.util.HashMap;
+import java.util.Map;
 
-/*
-    public utility.Order addOrder (OrderBook orderBook, OrderType orderType, int quantity, int price)
+public class TradingGateway {
+    public static final TradingGateway tradingGateway = new TradingGateway();
+    public static Map<String, OrderBook> map = new HashMap<>();
+
+    private TradingGateway() {}
+
+    public static TradingGateway getInstance()
     {
-        utility.Order newOrder =
-    }*/
+        return tradingGateway;
+    }
+
+
+    public void addOrder (String orderBookString, String orderType, String price, String quantity)
+    {
+       if (tradingGateway.map.containsKey(orderBookString)) {
+                OrderBook orderBook = map.get(orderBookString);
+                orderBook.addOrderToBook(orderType, price, quantity);
+            } else {
+                OrderBook orderBook = new OrderBook(orderBookString);
+                map.put(orderBookString, orderBook);
+                orderBook.addOrderToBook(orderType, price, quantity);
+            }
+
+    }
+
+
+    // Debug method!!!
+    public void getBothOrdersLists ()
+    {
+        for (Map.Entry<String, OrderBook> entry : map.entrySet()) {
+            OrderBook orderBook = entry.getValue();
+            orderBook.printOrders();
+        }
+
+    }
+
+
+
+
+
 
     public void cancelOrder (OrderBook orderBook, int orderId)
     {
 
     }
+
+
 
 }
 

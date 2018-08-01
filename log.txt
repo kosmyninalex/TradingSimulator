@@ -58,3 +58,21 @@ TradingSimulator: 2018/07/31 20:20:43.617. Event: Trading Simulator started
 TradingSimulator: 2018/07/31 20:20:43.710. Event: Type -help to see the list of available commands
 TradingSimulator: 2018/07/31 20:20:49.049. Event: Trading Simulator started
 TradingSimulator: 2018/07/31 20:20:49.127. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:09:05.497. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 09:09:05.580. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:09:07.555. Event: Invalid command
+TradingSimulator: 2018/08/01 09:09:10.504. Event: Invalid command
+TradingSimulator: 2018/08/01 09:09:34.590. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 09:09:34.684. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:09:43.904. Event: called help command
+TradingSimulator: 2018/08/01 09:09:43.904. Event: called exit command
+TradingSimulator: 2018/08/01 09:10:32.292. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 09:10:32.385. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:10:35.150. Event: called help command
+TradingSimulator: 2018/08/01 09:17:04.301. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 09:17:04.379. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:17:09.763. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 09:17:12.328. Event: Invalid command. Please type -help for more information
+TradingSimulator: 2018/08/01 09:17:20.050. Event: Trading Simulator started
+TradingSimulator: 2018/08/01 09:17:20.144. Event: Type -help to see the list of available commands
+TradingSimulator: 2018/08/01 09:17:22.010. Event: called help command

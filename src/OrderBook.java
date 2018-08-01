@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class OrderBook implements Runnable {
+public class OrderBook{
     private String name;
     private ArrayList<Order> ordersList = new ArrayList<Order>();
     Order head;
@@ -12,17 +12,19 @@ public class OrderBook implements Runnable {
         this.name = name;
     }
 
-    public void addOrder (String orderType, String quantity, String price)
+    public void addOrderToBook (String orderType, String quantity, String price)
     {
         orderType = orderType.toUpperCase();
         OrderType orderType1 = OrderType.valueOf(orderType);
         Order order = (new Order(this, orderType1, Integer.parseInt(quantity), Integer.parseInt(price)));
         if (orderType1.equals(OrderType.SELL)) {
             ordersListSell.add(order);
+            Collections.sort(ordersListSell);
         }
         else
         {
             orderListBuy.add(order);
+            Collections.sort(orderListBuy);
         }
         ordersList.add(order);
     }
@@ -30,6 +32,21 @@ public class OrderBook implements Runnable {
     public ArrayList<Order> getOrderList()
     {
         return ordersList;
+    }
+
+    public void printOrders ()
+    {
+        System.out.println ("List of buying orders");
+        for (Order i: orderListBuy)
+        {
+            System.out.println (i);
+        }
+
+        System.out.println ("List of selling orders");
+        for (Order i: ordersListSell)
+        {
+            System.out.println (i);
+        }
     }
 
     public void orderBooksSort ()
@@ -55,11 +72,15 @@ public class OrderBook implements Runnable {
         }
     }
 
-    @Override
-    public void run() {
-        if (head == null)
-        {head = ordersList.get(0);}
+    public ArrayList<Order> getBuyOrdersList ()
+    {
+        return orderListBuy;
+    }
 
-
+    public ArrayList<Order> getSellOrdersList ()
+    {
+        return ordersListSell;
     }
 }
+
+
