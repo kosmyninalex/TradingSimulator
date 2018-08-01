@@ -1,6 +1,5 @@
 import java.io.*;
 public class Logging {
-    // private static int eventID = 0;
     private static String fileName = "log.txt";
     public static void logEvent (String s)
     {

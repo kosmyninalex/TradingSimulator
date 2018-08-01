@@ -21,7 +21,7 @@ public class Trade {
         counter++;
         this.sellingOldQuantity = sellingOldQuantity;
         this.buyingOldQuantity = buyingOldQuantity;
-        stringRepresentation = "New execution with ID: " + id + " Order book: " + orderBook + ". BUYING ORDER. Qty before: " + buyingOldQuantity + ". Qty after: " + buyingOrder.getQuantity() + ". Price: " + buyingOrder.getPrice() + " SELL ORDER. Qty before: " + sellingOldQuantity + ". Qty after: " + sellingOrder.getQuantity() + ". Price: " + sellingOrder.getPrice();
+        stringRepresentation = "New execution with ID: " + id + " Order book: " + orderBook + ". BUYING ORDER. ID: " + buyingOrder.getId() + ". Qty before: " + buyingOldQuantity + ". Qty after: " + buyingOrder.getQuantity() + ". Price: " + buyingOrder.getPrice() + " SELL ORDER. ID: " + sellingOrder.getId() + ". Qty before: " + sellingOldQuantity + ". Qty after: " + sellingOrder.getQuantity() + ". Price: " + sellingOrder.getPrice();
     }
 
     public String toString ()
@@ -30,3 +30,5 @@ public class Trade {
     }
 
 }
+
+//Trade element class with methods

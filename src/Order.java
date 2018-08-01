@@ -41,6 +41,11 @@ public class Order implements Comparable <Order>{
         return isCompleted;
     }
 
+    public int getId ()
+    {
+        return id;
+    }
+
 
     public OrderType getOrderType() {
         return orderType;
@@ -77,3 +82,5 @@ public class Order implements Comparable <Order>{
 
     }
 }
+
+// Order element class with methods

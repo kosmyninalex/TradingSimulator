@@ -19,22 +19,11 @@ public class MatchingEngine implements Runnable {
                 matchTrades(orderBook);
             }
         //    Logging.logEvent("Matching engine is working");
-
-        //    System.out.println("Matching engine");
-        //    System.out.println("Matching process");
-            try {
+       try {
                 Thread.sleep(1000);
             } catch (Exception e) {
 
             }
-        }
-    }
-
-    public void processTradesInOrderBooks ()
-    {
-        for (Map.Entry<String, OrderBook> entry : TradingGateway.getInstance().map.entrySet()) {
-            OrderBook orderBook = entry.getValue();
-            matchTrades(orderBook);
         }
     }
 
@@ -56,8 +45,6 @@ public class MatchingEngine implements Runnable {
                         int oldBuyingQuatity = buyOrder.getQuantity();
                         int quantityDiff = sellOrder.getQuantity() - buyOrder.getQuantity();
                         if (quantityDiff == 0) {
-                            //Debug event
-                           // Logging.logEvent("quantityDiff is 0");
                             buyOrder.setCompletedState();
                             sellOrder.setCompletedState();
                             buyOrder.setQuantity(0);
@@ -65,8 +52,6 @@ public class MatchingEngine implements Runnable {
                         }
                         if (quantityDiff > 0)
                         {
-                            //Debug event
-                           // Logging.logEvent("sell order quantity is bigger than buy order's quantity");
                             buyOrder.setCompletedState();
                             buyOrder.setQuantity(0);
                             sellOrder.setQuantity(quantityDiff);
@@ -89,3 +74,4 @@ public class MatchingEngine implements Runnable {
         }
     }
 
+// MatchingEngine class with balancing that runs in a second (non-main) thread

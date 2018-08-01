@@ -9,6 +9,7 @@ public class TradeLedger {
     public void addTrade (Trade trade)
     {
         Logging.logEvent(trade.toString());
+        System.out.println();
         tradeList.add(trade);
     }
 
@@ -17,14 +18,17 @@ public class TradeLedger {
         return tradeList;
     }
 
+    public void printTrades ()
+    {
+        for (Trade i: tradeList)
+        {
+            System.out.println (i);
+        }
+    }
+
     public static TradeLedger getInstance()
     {
         return tradeLedger;
-    }
-
-    public void processTrades ()
-    {
-
     }
 
 

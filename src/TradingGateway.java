@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -27,31 +28,26 @@ public class TradingGateway {
 
     }
 
-
-    // Debug method!!!
     public void getBothOrdersLists ()
     {
         if (!map.isEmpty()) {
-            for (Map.Entry<String, OrderBook> entry : map.entrySet()) {
-                OrderBook orderBook = entry.getValue();
+        Iterator<Map.Entry<String,OrderBook>> iter = map.entrySet().iterator();
+        while (iter.hasNext()) {
+            Map.Entry<String,OrderBook> entry = iter.next();
+            OrderBook orderBook = entry.getValue();
+            if ((orderBook.getBuyOrdersList().isEmpty()) && ((orderBook.getSellOrdersList().isEmpty())) )
+            {
+                iter.remove();
+            }
+            else {
                 orderBook.printOrders();
             }
-        }
-        else System.out.println ("All order books are empty");
+        }}
+        else System.out.println ("No Order Books found");
+
+
 
     }
-
-
-
-
-
-
-    public void cancelOrder (OrderBook orderBook, int orderId)
-    {
-
-    }
-
-
 
 }
 

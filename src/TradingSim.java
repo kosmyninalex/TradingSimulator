@@ -3,11 +3,6 @@ import java.io.InputStreamReader;
 import java.util.Map;
 
 public class TradingSim {
- //   static TradingGateway tradingGateway = TradingGateway.getInstance();
-
-
-
-
     public static void main(String[] args) {
 
         Logging.logEvent("Trading Simulator started");
@@ -30,8 +25,6 @@ public class TradingSim {
         }
 
     }
-    //Don't forget to add -help!!!!!!!!111
-
 
     public static void parseInput(String s) {
         try {
@@ -45,6 +38,12 @@ public class TradingSim {
                 case "print":
                 {
                     TradingGateway.getInstance().getBothOrdersLists ();
+                    break;
+                }
+
+                case "trades":
+                {
+                    TradeLedger.getInstance().printTrades();
                     break;
                 }
 
